@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Text.uss?fileID=7433441132597879392&amp;guid=bcf2325cfd5e8f749b2cf07c78e7d0e5&amp;type=3#Text" />
+    <ui:VisualElement name="BackGround" style="height: 1024px; flex-direction: row;">
+        <ui:VisualElement name="NOGO" style="width: 440px;" />
+        <ui:VisualElement name="Content" style="width: 1542px; margin-right: 20px;">
+            <ui:VisualElement name="MiddelbaarHolder" style="height: 382px; margin-top: 20px; margin-left: 10px; border-left-width: 5px; border-right-width: 5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 5px;">
+                <ui:Label text="Middelbaar" display-tooltip-when-elided="true" name="MiddelbaarLabel" class="Text" style="font-size: 60px; -unity-font-style: bold; margin-left: 20px; margin-top: 10px;" />
+                <ui:VisualElement name="InfoHolder" style="height: 274px; flex-direction: row; border-top-width: 3px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+                    <ui:VisualElement name="SchoolPhoto" style="width: 561px; background-image: url(&apos;project://database/Assets/Sprites/schoolLogo.png?fileID=2800000&amp;guid=83a09a9703f7bc54cba07deec1d13b1b&amp;type=3#schoolLogo&apos;); height: 154px; margin-top: 50px; margin-right: 20px; margin-left: 20px;" />
+                    <ui:VisualElement name="Info" style="width: 1208px;">
+                        <ui:Label text="Informatica Beheer" display-tooltip-when-elided="true" name="RichtingLabel" class="Text" />
+                        <ui:Label text="Ik heb in het middelbaar verschillende keren mijn interesses verlegd maar ben uiteindelijk in informatica beheer terecht gekomen. Hier heb ik alle basics van Netwerken, Hardware en software geleerd. " display-tooltip-when-elided="true" name="Info" class="Text" style="font-size: 30px; padding-right: 50px; white-space: normal;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Bar" style="height: 5px; background-color: rgb(0, 0, 0); margin-top: 9px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="HogeschoolHolder" style="height: 542px; margin-left: 10px; border-left-width: 5px; border-right-width: 5px; border-bottom-width: 3px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+                <ui:Label text="Hogeschool" display-tooltip-when-elided="true" name="HogeschoolLabel" class="Text" style="font-size: 60px; -unity-font-style: bold; -unity-text-align: upper-left; margin-left: 20px; margin-top: 10px;" />
+                <ui:VisualElement name="InfoHolder" style="height: 448px; border-top-width: 3px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: 10px; flex-direction: row;">
+                    <ui:VisualElement name="LogoHolder" style="width: 563px; height: 216px; background-image: none; background-color: rgb(0, 0, 0); margin-top: 70px; margin-left: 20px; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; justify-content: space-around;">
+                        <ui:VisualElement name="Logo" style="background-image: url(&apos;project://database/Assets/Sprites/DAE_headerLogo.png?fileID=2800000&amp;guid=c1ed9c5d3b563774ab7576397498392e&amp;type=3#DAE_headerLogo&apos;); width: auto; height: 148px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="InfoHolder" style="width: 1198px; margin-left: 20px;">
+                        <ui:Label text="Game Development" display-tooltip-when-elided="true" name="CourseLable" class="Text" />
+                        <ui:Label text="Mijn hogeschool loopbaan begon als elk ander. Al was het met tegenzin. Ik begon aan Game Development in de dochter school van Howest, Dae. Hier heb ik 2 jaar gespendeerd. Maar doordat ik 1 vak faalde in het eerste jaar moest ik 4jaar in plaats van 3. Ik was al lang school moe dus besloot ik mijn 2de jaar goed af te maken en dan in de grote wereld te stappen. Ik heb alle vakken behalve 2 gehad. Hier leerde ik met c++ te werken. Maar ook veel andere dingen zoals WPF, Win32, WinForms en cmake." display-tooltip-when-elided="true" name="Info" class="Text" style="font-size: 30px; height: 337px; flex-wrap: nowrap; white-space: normal;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,74 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Text.uss?fileID=7433441132597879392&amp;guid=bcf2325cfd5e8f749b2cf07c78e7d0e5&amp;type=3#Text" />
+    <Style src="project://database/Assets/UI/Slider.uss?fileID=7433441132597879392&amp;guid=97f9f6ad65563454fbd6bc23d8567f7e&amp;type=3#Slider" />
+    <ui:VisualElement name="Background" style="width: auto; height: 1024px; flex-direction: row;">
+        <ui:VisualElement name="NoGo" style="width: 440px;" />
+        <ui:VisualElement name="Content" style="width: 1572px; margin-left: 20px;">
+            <ui:VisualElement name="Software" style="height: 384px;">
+                <ui:Label text="Software" display-tooltip-when-elided="true" name="SoftwareLabel" class="Text" style="font-size: 60px;" />
+                <ui:VisualElement name="SoftwareHolder" style="height: 238px; flex-direction: row; justify-content: flex-start;">
+                    <ui:VisualElement name="TextHolder" style="width: 344px;">
+                        <ui:Label text="Office" display-tooltip-when-elided="true" name="OfficeLabel" class="Text" />
+                        <ui:Label text="Photoshop" display-tooltip-when-elided="true" name="PhotoshopLabel" class="Text" />
+                        <ui:Label text="Git" display-tooltip-when-elided="true" name="GitLabel" class="Text" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ScaleHolder" style="width: 1364px; margin-right: 20px; margin-left: 15px; flex-direction: row;">
+                        <ui:VisualElement name="ValueHolder">
+                            <ui:Label text="85" display-tooltip-when-elided="true" name="OfficeValue" class="Text" />
+                            <ui:Label text="60" display-tooltip-when-elided="true" name="PhotoshopValue" class="Text" />
+                            <ui:Label text="80" display-tooltip-when-elided="true" name="GitValue" picking-mode="Ignore" class="Text" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="SliderHolder" style="width: 1110px;">
+                            <ui:Slider picking-mode="Ignore" value="85" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 75px;" />
+                            <ui:Slider value="60" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 75px;" />
+                            <ui:Slider picking-mode="Ignore" value="80" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 75px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Border" style="height: 4px; background-color: rgb(0, 0, 0); margin-top: 20px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Langauges" style="height: 380px;">
+                <ui:Label text="Talen" display-tooltip-when-elided="true" name="LanguagesLabel" class="Text" style="font-size: 60px;" />
+                <ui:VisualElement name="TalenHolder" style="height: 238px; flex-direction: row; justify-content: flex-start;">
+                    <ui:VisualElement name="TextHolder" style="width: 344px;">
+                        <ui:Label text="C# (.Net)" display-tooltip-when-elided="true" name="CsLaber" class="Text" />
+                        <ui:Label text="C++" display-tooltip-when-elided="true" name="cppLabel" class="Text" />
+                        <ui:Label text="WPF/XAML" display-tooltip-when-elided="true" name="WPFLabel" class="Text" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ScaleHolder" style="width: 1364px; margin-right: 20px; margin-left: 15px; flex-direction: row;">
+                        <ui:VisualElement name="ValueHolder">
+                            <ui:Label text="95" display-tooltip-when-elided="true" name="csValue" class="Text" />
+                            <ui:Label text="87" display-tooltip-when-elided="true" name="cppValue" class="Text" />
+                            <ui:Label text="75" display-tooltip-when-elided="true" name="WPFValue" picking-mode="Ignore" class="Text" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="SliderHolder" style="width: 1110px;">
+                            <ui:Slider picking-mode="Ignore" value="95" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 75px;" />
+                            <ui:Slider value="87" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 75px;" />
+                            <ui:Slider picking-mode="Ignore" value="75" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 75px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="Border" style="height: 4px; background-color: rgb(0, 0, 0); margin-top: 20px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Extra" style="height: 308px;">
+                <ui:Label text="Extra" display-tooltip-when-elided="true" name="LanguagesLabel" class="Text" style="font-size: 60px;" />
+                <ui:VisualElement name="ExtraHolder" style="height: 155px; flex-direction: row; justify-content: flex-start;">
+                    <ui:VisualElement name="TextHolder" style="width: 344px;">
+                        <ui:Label text="Nederlands" display-tooltip-when-elided="true" name="NederlandsLabel" class="Text" />
+                        <ui:Label text="Engels" display-tooltip-when-elided="true" name="EngelsLabel" class="Text" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ScaleHolder" style="width: 1364px; margin-right: 20px; margin-left: 15px; flex-direction: row;">
+                        <ui:VisualElement name="ValueHolder">
+                            <ui:Label text="90" display-tooltip-when-elided="true" name="NlValue" class="Text" />
+                            <ui:Label text="90" display-tooltip-when-elided="true" name="EngValue" class="Text" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="SliderHolder" style="width: 1110px;">
+                            <ui:Slider picking-mode="Ignore" value="90" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 75px;" />
+                            <ui:Slider value="90" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 75px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

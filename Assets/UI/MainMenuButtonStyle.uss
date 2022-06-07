@@ -1,0 +1,38 @@
+.button-style {
+    align-items: auto;
+    height: 170px;
+    margin-top: 10px;
+    padding-left: 0;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    color: rgb(32, 32, 41);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    margin-left: -5px;
+    -unity-font: url('project://database/Assets/Fonts/OpenSans-VariableFont_wdth,wght.ttf?fileID=12800000&guid=ae963c83625d3a8499da8a8e5e195da1&type=3#OpenSans-VariableFont_wdth,wght');
+    -unity-font-definition: url('project://database/Assets/Fonts/OpenSans-VariableFont_wdth,wght%20SDF.asset?fileID=11400000&guid=a11d78e369af80448a9f64ef32f4b53f&type=2#OpenSans-VariableFont_wdth,wght SDF');
+    background-color: rgba(231, 231, 231, 255);
+}
+
+.button-style:hover {
+    background-color: rgb(161, 161, 161);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+}
+
+.button-style:active {
+    border-left-color: rgb(161, 161, 161);
+    border-right-color: rgb(161, 161, 161);
+    border-top-color: rgb(161, 161, 161);
+    border-bottom-color: rgb(161, 161, 161);
+}

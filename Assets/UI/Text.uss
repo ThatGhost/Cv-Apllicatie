@@ -1,0 +1,5 @@
+.Text {
+    -unity-font: url('project://database/Assets/Fonts/OpenSans-VariableFont_wdth,wght.ttf?fileID=12800000&guid=ae963c83625d3a8499da8a8e5e195da1&type=3#OpenSans-VariableFont_wdth,wght');
+    -unity-font-definition: url('project://database/Assets/Fonts/OpenSans-VariableFont_wdth,wght%20SDF.asset?fileID=11400000&guid=a11d78e369af80448a9f64ef32f4b53f&type=2#OpenSans-VariableFont_wdth,wght SDF');
+    font-size: 50px;
+}

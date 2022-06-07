@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Text.uss?fileID=7433441132597879392&amp;guid=bcf2325cfd5e8f749b2cf07c78e7d0e5&amp;type=3#Text" />
+    <ui:VisualElement name="Background" style="height: 1020px; flex-direction: row;">
+        <ui:VisualElement name="NoGo" style="width: 440px;" />
+        <ui:VisualElement name="Content" style="width: 1564px; justify-content: flex-start; flex-direction: column; margin-right: 20px;">
+            <ui:VisualElement name="GymHolder" style="height: 237px; justify-content: flex-start; margin-top: 20px; border-bottom-width: 5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+                <ui:Label text="Gym" display-tooltip-when-elided="true" name="GymLabel" class="Text" style="font-size: 60px;" />
+                <ui:Label text="Onlangs begon ik met gymmen in Eeklo. Ik probeer 2-3 keer per week te gaan. A healthy body makes for a healthy mind. En het is ook gewoon leuk om met vrienden te gaan sporten :)" display-tooltip-when-elided="true" name="Gyminfo" class="Text" style="height: 135px; font-size: 30px; white-space: normal;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="GameDevHolder" style="height: 402px; border-bottom-width: 5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+                <ui:Label text="Game Development" display-tooltip-when-elided="true" name="GameDevLabel" class="Text" />
+                <ui:Label text="Game development zou ik zeker een van mijn 2 grote passies noemen. Ik heb de laatste 5 jaar bijna elke dag een paar uur games gemaakt. Over de jaren heen moet ik waarschijnlijk tientallen projecten gemaakt hebben. Jammer genoeg stonden ze de test van tijd niet en zijn ze niet meer terug te vinden buiten een paar. De bedoeling voor de komende tijd is dan ook om na het thuis komen te werken aan mijn eerste groot commerciële video game. Mijn grootste interesse in game development zijn de achterliggende systemen zoals netwerken, Files, geluid, ect. Vooral netwerken voor games heeft me de laatste tijd vast." display-tooltip-when-elided="true" name="GameDevInfo" class="Text" style="font-size: 30px; white-space: normal;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="PolitiekHolder" style="height: 292px;">
+                <ui:Label text="Politiek" display-tooltip-when-elided="true" name="PolitiekLabel" class="Text" />
+                <ui:Label text="Als Game Dev mijn eerste passie is dan is Politiek zeker mijn tweede. Sinds kleins af ben ik al bezig met alles dat met politiek te maken heeft. Economie, Sociaal, Geopolitiek, Actualiteit, Ideologie, alles waar een politieker aan denkt denk ik ook aan. Zover zelfs dat ik al een jaar aan mijn eigen Manifesto bezig ben. Ik heb ook 2 jaar in een debat club gezeten (KRAS)." display-tooltip-when-elided="true" name="PolitiekInfo" class="Text" style="font-size: 30px; white-space: normal;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
