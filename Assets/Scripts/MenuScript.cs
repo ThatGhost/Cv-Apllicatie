@@ -2,14 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
-
+using System.Windows;
 public class MenuScript : MonoBehaviour
 {
     public GameObject Home;
     public GameObject Skills;
     public GameObject Ervaring;
     public GameObject School;
+
     public GameObject Hobbies;
+    public GameObject Bubbles;
 
     private Button HomeButton;
     private Button SkillsButton;
@@ -25,6 +27,10 @@ public class MenuScript : MonoBehaviour
         ErvaringButton = root.Q<Button>("B_Ervaring");
         SchoolButton = root.Q<Button>("B_School");
         HobbiesButton = root.Q<Button>("B_Hobbies");
+
+        root.Q<Button>("Git").clicked += OnGitBUtton;
+        root.Q<Button>("Tel").clicked += OnTelButton;
+        root.Q<Button>("Email").clicked += OnEmailButton;
 
         HomeButton.clicked += OnHomeButton;
         SkillsButton.clicked += OnSkillsButton;
@@ -57,6 +63,27 @@ public class MenuScript : MonoBehaviour
     {
         HideAll();
         Hobbies.SetActive(true);
+        Bubbles.SetActive(true);
+    }
+
+    private void OnGitBUtton()
+    {
+        string str = "https://github.com/ThatGhost";
+        GUIUtility.systemCopyBuffer = str;
+    }
+
+    private void OnTelButton()
+    {
+        //copy
+        string str = "+3271234413";
+        GUIUtility.systemCopyBuffer = str;
+    }
+
+    private void OnEmailButton()
+    {
+        //copy
+        string str = "izwackaert@gmail.com";
+        GUIUtility.systemCopyBuffer = str;
     }
 
     private void HideAll()
@@ -66,5 +93,6 @@ public class MenuScript : MonoBehaviour
         Ervaring.SetActive(false);
         School.SetActive(false);
         Hobbies.SetActive(false);
+        Bubbles.SetActive(false);
     }
 }

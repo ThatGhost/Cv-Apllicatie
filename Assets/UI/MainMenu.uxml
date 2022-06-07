@@ -1,14 +1,28 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/MainMenuButtonStyle.uss?fileID=7433441132597879392&amp;guid=06a55d34348886f4080fc55218bdeb86&amp;type=3#MainMenuButtonStyle" />
-    <ui:VisualElement name="BackGround" style="align-items: stretch; justify-content: flex-start; visibility: visible; height: 1016px; flex-direction: row; flex-wrap: nowrap; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0);">
-        <ui:VisualElement name="ButtonGroup" style="height: auto; width: 400px; align-items: stretch; justify-content: flex-start; flex-direction: column; margin-top: 25px;">
-            <ui:Button text="Home" display-tooltip-when-elided="true" name="B_Home" class="button-style" />
-            <ui:Button text="Skills" display-tooltip-when-elided="true" name="B_Skills" class="button-style" />
-            <ui:Button text="Ervaring" display-tooltip-when-elided="true" name="B_Ervaring" class="button-style" />
-            <ui:Button text="School" display-tooltip-when-elided="true" name="B_School" class="button-style" />
-            <ui:Button text="Hobbies" display-tooltip-when-elided="true" name="B_Hobbies" class="button-style" />
+    <Style src="project://database/Assets/UI/Text.uss?fileID=7433441132597879392&amp;guid=bcf2325cfd5e8f749b2cf07c78e7d0e5&amp;type=3#Text" />
+    <ui:VisualElement name="BackGround" style="align-items: stretch; justify-content: flex-start; visibility: visible; height: 100%; flex-direction: column; flex-wrap: nowrap; border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); width: 100%;">
+        <ui:VisualElement name="ButtonGroup" style="height: 17%; width: auto; align-items: stretch; justify-content: flex-start; flex-direction: row-reverse; background-color: rgb(255, 255, 255);">
+            <ui:Button text="Home" display-tooltip-when-elided="true" name="B_Home" class="button-style Text" style="margin-right: 40px; font-size: 50px;" />
+            <ui:Button text="School" display-tooltip-when-elided="true" name="B_School" class="button-style Text" style="font-size: 50px;" />
+            <ui:Button text="Ervaring" display-tooltip-when-elided="true" name="B_Ervaring" class="button-style Text" style="display: none; font-size: 50px;" />
+            <ui:Button text="Hobbies" display-tooltip-when-elided="true" name="B_Hobbies" class="button-style Text" style="font-size: 50px;" />
+            <ui:Button text="Skills" display-tooltip-when-elided="true" name="B_Skills" class="button-style Text" style="font-size: 50px;" />
         </ui:VisualElement>
-        <ui:VisualElement name="Bar" style="align-items: auto; margin-left: 10px; width: 3px; background-color: rgb(0, 0, 0); margin-top: 20px; margin-bottom: 20px;" />
-        <ui:VisualElement name="Content" style="align-items: auto; margin-left: 3px; width: 1600px;" />
+        <ui:VisualElement name="Content" style="align-items: auto; margin-left: 3px; width: auto; height: 73%;" />
+        <ui:VisualElement name="Bottom" style="margin-top: 0; flex-direction: row; align-items: center; justify-content: space-around; margin-left: 1%; border-left-width: 0; border-right-width: 0; border-top-width: 3px; border-bottom-width: 0; border-left-color: rgba(0, 0, 0, 0.83); border-right-color: rgba(0, 0, 0, 0.83); border-top-color: rgba(0, 0, 0, 0.83); border-bottom-color: rgba(0, 0, 0, 0.83); margin-right: 1%; height: 10%; margin-bottom: 0;">
+            <ui:VisualElement name="TelHolder" style="height: 60%; flex-direction: row; -unity-text-align: middle-left; align-items: center;">
+                <ui:VisualElement name="Copy" style="background-image: url(&apos;project://database/Assets/Sprites/CopyIcon.png?fileID=2800000&amp;guid=4a907188aba23b24793a7189b29a4634&amp;type=3#CopyIcon&apos;); width: 50px; height: 70px; background-color: rgba(255, 255, 255, 0);" />
+                <ui:Button text="Tel: +3271234413" display-tooltip-when-elided="true" name="Tel" class="Bottom-Text Text" style="height: 100%; background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="EmailHolder" style="height: 60%; flex-direction: row; align-items: center;">
+                <ui:VisualElement name="Copy" style="background-image: url(&apos;project://database/Assets/Sprites/CopyIcon.png?fileID=2800000&amp;guid=4a907188aba23b24793a7189b29a4634&amp;type=3#CopyIcon&apos;); width: 50px; height: 70px; background-color: rgba(255, 255, 255, 0);" />
+                <ui:Button text="Email: izwackaert@gmail.com" display-tooltip-when-elided="true" name="Email" class="Bottom-Text Text" style="height: 100%; background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="GitHolder" style="height: 60%; flex-direction: row; align-items: center;">
+                <ui:VisualElement name="Copy" style="background-image: url(&apos;project://database/Assets/Sprites/CopyIcon.png?fileID=2800000&amp;guid=4a907188aba23b24793a7189b29a4634&amp;type=3#CopyIcon&apos;); width: 50px; height: 70px; background-color: rgba(255, 255, 255, 0);" />
+                <ui:Button text="GitHub: https://github.com/ThatGhost" display-tooltip-when-elided="true" name="Git" class="Bottom-Text Text" style="height: 100%; background-color: rgba(188, 188, 188, 0); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

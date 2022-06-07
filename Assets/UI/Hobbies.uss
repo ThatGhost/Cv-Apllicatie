@@ -1,0 +1,8 @@
+.Bubbel-title {
+    font-size: 30px;
+    -unity-font-style: normal;
+}
+
+.Bubbel-text {
+    font-size: 21px;
+}
