@@ -3,28 +3,40 @@
     <Style src="project://database/Assets/UI/School.uss?fileID=7433441132597879392&amp;guid=8491841b5267e1b4c9abb2035f6be870&amp;type=3#School" />
     <ui:VisualElement name="BackGround" style="height: 100%; flex-direction: column; width: 100%;">
         <ui:VisualElement name="NOGO" style="width: auto; height: 17%;" />
-        <ui:VisualElement name="Content" style="width: auto; height: 73%; margin-right: 1%; margin-left: 1%;">
-            <ui:VisualElement name="MiddelbaarHolder" class="Holders" style="height: 45%; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-bottom: 20px; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; padding-left: 1%; padding-right: 1%; margin-top: 20px;">
-                <ui:Label text="Middelbaar" display-tooltip-when-elided="true" name="MiddelbaarLabel" class="Text" style="font-size: 60px; -unity-font-style: bold; margin-left: 20px; margin-top: 10px; height: 30%;" />
-                <ui:VisualElement name="InfoHolder" style="height: 70%; flex-direction: row; margin-right: 20px; margin-left: 2%;">
-                    <ui:VisualElement name="LogoHolder">
-                        <ui:VisualElement name="SchoolPhoto" style="width: 561px; background-image: url(&apos;project://database/Assets/Sprites/schoolLogo.png?fileID=2800000&amp;guid=83a09a9703f7bc54cba07deec1d13b1b&amp;type=3#schoolLogo&apos;); height: 154px; margin-top: 3%; margin-right: 20px; margin-left: 20px;" />
-                    </ui:VisualElement>
-                    <ui:VisualElement name="Info" style="width: 1208px; margin-left: 1.5%;">
-                        <ui:Label text="Informatica Beheer" display-tooltip-when-elided="true" name="RichtingLabel" class="Text" />
-                        <ui:Label text="Ik heb in het middelbaar verschillende keren mijn interesses verlegd maar ben uiteindelijk in informatica beheer terecht gekomen. Hier heb ik alle basics van Netwerken, Hardware en software geleerd. " display-tooltip-when-elided="true" name="Info" class="Text" style="font-size: 25px; padding-right: 50px; white-space: normal;" />
-                    </ui:VisualElement>
-                </ui:VisualElement>
-            </ui:VisualElement>
-            <ui:VisualElement name="HogeschoolHolder" class="Holders" style="height: 55%; padding-left: 1%; padding-right: 1%; margin-top: 0; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; margin-bottom: 20px;">
-                <ui:Label text="Hogeschool" display-tooltip-when-elided="true" name="HogeschoolLabel" class="Text" style="font-size: 60px; -unity-font-style: bold; -unity-text-align: upper-left; margin-left: 20px; margin-top: 10px; height: 25%;" />
+        <ui:VisualElement name="Content" style="width: auto; height: 73%; margin-right: 1%; margin-left: 5%;">
+            <ui:VisualElement name="HogeschoolHolder" class="Holders" style="height: 40%; padding-left: 1%; padding-right: 1%; margin-top: 0; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; margin-bottom: 0;">
+                <ui:Label text="Hogeschool" display-tooltip-when-elided="true" name="HogeschoolLabel" class="Text" style="font-size: 40px; -unity-font-style: bold; -unity-text-align: upper-left; margin-left: 20px; margin-top: 0; height: 25%;" />
                 <ui:VisualElement name="InfoHolder" style="height: 75%; margin-top: 10px; flex-direction: row; padding-left: 0; margin-left: 20px; margin-right: 20px;">
-                    <ui:VisualElement name="LogoHolder" style="width: 563px; height: 216px; background-image: none; background-color: rgb(0, 0, 0); margin-top: 10px; margin-left: 2%; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; justify-content: space-around;">
+                    <ui:VisualElement name="LogoHolder" style="width: 30%; height: 175px; background-image: none; background-color: rgb(0, 0, 0); margin-top: 0; margin-left: 0; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; justify-content: space-around;">
                         <ui:VisualElement name="Logo" style="background-image: url(&apos;project://database/Assets/Sprites/DAE_headerLogo.png?fileID=2800000&amp;guid=c1ed9c5d3b563774ab7576397498392e&amp;type=3#DAE_headerLogo&apos;); width: auto; height: 148px;" />
                     </ui:VisualElement>
                     <ui:VisualElement name="InfoHolder" style="width: 65%; margin-left: 2%; margin-top: 0;">
-                        <ui:Label text="Game Development" display-tooltip-when-elided="true" name="CourseLable" class="Text" />
-                        <ui:Label text="Mijn hogeschool loopbaan begon als elk ander. Al was het met tegenzin. Ik begon aan Game Development in de dochter school van Howest, Dae. Hier heb ik 2 jaar gespendeerd. Maar doordat ik 1 vak faalde in het eerste jaar moest ik 4jaar in plaats van 3. Ik was al lang school moe dus besloot ik mijn 2de jaar goed af te maken en dan in de grote wereld te stappen. Ik heb alle vakken behalve 2 gehad. Hier leerde ik met c++ te werken. Maar ook veel andere dingen zoals WPF, Win32, WinForms en cmake." display-tooltip-when-elided="true" name="Info" class="Text" style="font-size: 25px; height: 337px; flex-wrap: nowrap; white-space: normal;" />
+                        <ui:Label text="Game Development" display-tooltip-when-elided="true" name="CourseLable" class="Text" style="font-size: 50px;" />
+                        <ui:Label text="Howest, Digital arts and entertainment&#10;2020-2022" display-tooltip-when-elided="true" name="Info" class="Text" style="font-size: 30px; height: auto; flex-wrap: nowrap; white-space: normal;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="MiddelbaarHolder" class="Holders" style="height: 230px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-bottom: 0; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; padding-left: 1%; padding-right: 1%; margin-top: 0;">
+                <ui:Label text="Middelbaar" display-tooltip-when-elided="true" name="MiddelbaarLabel" class="Text" style="font-size: 40px; -unity-font-style: bold; margin-left: 20px; margin-top: 0; height: 30%;" />
+                <ui:VisualElement name="InfoHolder" style="height: 70%; flex-direction: row; margin-right: 1%; margin-left: 2%;">
+                    <ui:VisualElement name="LogoHolder" style="width: 30%;">
+                        <ui:VisualElement name="SchoolPhoto" style="width: 361px; background-image: url(&apos;project://database/Assets/Sprites/schoolLogo.png?fileID=2800000&amp;guid=83a09a9703f7bc54cba07deec1d13b1b&amp;type=3#schoolLogo&apos;); height: 107px; margin-top: 3%; margin-right: 20px; margin-left: 20px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Info" style="width: 1208px; margin-left: 1%;">
+                        <ui:Label text="Informatica Beheer" display-tooltip-when-elided="true" name="RichtingLabel" class="Text" style="font-size: 50px;" />
+                        <ui:Label text="Go Athenuem en leefschool De Tandem&#10;2018-2020" display-tooltip-when-elided="true" name="Info" class="Text" style="font-size: 30px; padding-right: 50px; white-space: normal;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="ZelfStudie" class="Holders" style="height: 194px; padding-left: 1%; padding-right: 1%; margin-top: 0; border-top-left-radius: 50px; border-bottom-left-radius: 50px; border-top-right-radius: 50px; border-bottom-right-radius: 50px; margin-bottom: 0; width: 1898px;">
+                <ui:Label text="Zelf studie" display-tooltip-when-elided="true" name="HogeschoolLabel" class="Text" style="font-size: 40px; -unity-font-style: bold; -unity-text-align: upper-left; margin-left: 20px; margin-top: 0; height: 25%;" />
+                <ui:VisualElement name="InfoHolder" style="height: 75%; margin-top: 0; flex-direction: row; padding-left: 0; margin-left: 1%; margin-right: 1%;">
+                    <ui:VisualElement name="LogoHolder" style="width: 30%; height: 175px; margin-top: 0; margin-left: 0; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; justify-content: space-around;">
+                        <ui:VisualElement name="Logo" style="background-image: url(&apos;project://database/Assets/Sprites/Unity-Logo.png?fileID=2800000&amp;guid=8dc8941565d7b2b4e94c6a9c092dffcf&amp;type=3#Unity-Logo&apos;); width: 445px; height: 172px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="InfoHolder" style="width: 65%; margin-left: 1%; margin-top: 0; height: 100%;">
+                        <ui:Label text="Zelf stufie" display-tooltip-when-elided="true" name="CourseLable" class="Text" style="font-size: 50px;" />
+                        <ui:Label text="2017-Nu" display-tooltip-when-elided="true" name="Info" class="Text" style="font-size: 30px; height: auto; flex-wrap: nowrap; white-space: normal;" />
                     </ui:VisualElement>
                 </ui:VisualElement>
             </ui:VisualElement>

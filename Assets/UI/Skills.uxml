@@ -15,14 +15,14 @@
                         </ui:VisualElement>
                         <ui:VisualElement name="ScaleHolder" style="width: 85%; margin-right: 20px; margin-left: 15px; flex-direction: row;">
                             <ui:VisualElement name="ValueHolder" style="width: 7%; height: 100%;">
-                                <ui:Label text="95" display-tooltip-when-elided="true" name="csValue" class="Text" style="height: 33%;" />
-                                <ui:Label text="87" display-tooltip-when-elided="true" name="cppValue" class="Text" style="height: 33%;" />
-                                <ui:Label text="75" display-tooltip-when-elided="true" name="WPFValue" picking-mode="Ignore" class="Text" style="height: 33%;" />
+                                <ui:Label text="90" display-tooltip-when-elided="true" name="csValue" class="Text" style="height: 33%;" />
+                                <ui:Label text="70" display-tooltip-when-elided="true" name="cppValue" class="Text" style="height: 33%;" />
+                                <ui:Label text="70" display-tooltip-when-elided="true" name="WPFValue" picking-mode="Ignore" class="Text" style="height: 33%;" />
                             </ui:VisualElement>
                             <ui:VisualElement name="SliderHolder" style="width: 97%;">
-                                <ui:Slider picking-mode="Ignore" value="95" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 33%;" />
-                                <ui:Slider value="87" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 33%;" />
-                                <ui:Slider picking-mode="Ignore" value="75" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 33%;" />
+                                <ui:Slider picking-mode="Ignore" value="90" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 33%;" />
+                                <ui:Slider value="70" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 33%;" />
+                                <ui:Slider picking-mode="Ignore" value="70" high-value="100" name="OfficeSlider" show-input-field="false" inverted="false" style="height: 33%;" />
                             </ui:VisualElement>
                         </ui:VisualElement>
                     </ui:VisualElement>
