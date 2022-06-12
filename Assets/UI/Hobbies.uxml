@@ -18,7 +18,7 @@
             </ui:VisualElement>
             <ui:VisualElement name="Media" style="height: 315px; padding-left: 1%; padding-right: 1%; margin-top: -0.5%; margin-bottom: 0; margin-left: 0; margin-right: 0; position: absolute; left: 69%; width: 689px; top: 68%;">
                 <ui:Label text="Media" display-tooltip-when-elided="true" name="MediaLabel" class="Text Bubbel-title" />
-                <ui:Label text="In mijn vrije tijd durf ik al eens naar Youtube kijken. De grote hoeveelheid van videos hebben een informatieve achtergrond. Ik heb ook mezelf alles aangeleerd met Youtube en Trial and Error. Ik durf ook eens wat Anime te kijken of wat games spelen maar de meeste tijd gaat nog steeds naar de bovenstaande items." display-tooltip-when-elided="true" name="MediaInfo" class="Text Bubbel-text" style="white-space: normal; margin-left: 30px; margin-right: 30px; height: auto; width: auto;" />
+                <ui:Label text="In mijn vrije tijd durf ik al eens naar Youtube kijken. De grote hoeveelheid van videos hebben een informatieve achtergrond. Ik heb ook mezelf alles aangeleerd met Youtube en Trial and Error. Ik durf ook eens wat Anime te kijken of wat games spelen maar de meeste tijd gaat nog steeds naar de game development en politiek." display-tooltip-when-elided="true" name="MediaInfo" class="Text Bubbel-text" style="white-space: normal; margin-left: 30px; margin-right: 30px; height: auto; width: auto;" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>

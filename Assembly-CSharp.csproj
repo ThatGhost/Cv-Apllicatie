@@ -82,7 +82,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\UI\Home.uxml" />
     <None Include="Assets\UI\School.uxml" />
-    <None Include="Assets\UI\Ervaring.uxml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\UI\MainMenu.uxml" />
     <None Include="Assets\UI\Text.uss" />

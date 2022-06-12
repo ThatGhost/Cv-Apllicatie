@@ -28,22 +28,22 @@
                     {
                         "m_StyleSheet": {
                             "fileID": 7433441132597879392,
-                            "guid": "8491841b5267e1b4c9abb2035f6be870",
+                            "guid": "00103bec76fb7fb459593ba79d80bfa8",
                             "type": 3
                         },
                         "m_BackupStyleSheet": {
                             "instanceID": 0
                         },
-                        "m_OldPath": "Assets/UI/School.uss"
+                        "m_OldPath": "Assets/UI/Hobbies.uss"
                     }
                 ],
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/School.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/Hobbies.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "4a79da16fcf9e7b4b80d14626ff64886",
+                    "guid": "d69d3cd12b2864c43be865cff51d0286",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
@@ -52,17 +52,17 @@
                     "type": 3
                 },
                 "m_Settings": {
-                    "UxmlGuid": "4a79da16fcf9e7b4b80d14626ff64886",
-                    "UxmlPath": "Assets/UI/School.uxml",
+                    "UxmlGuid": "d69d3cd12b2864c43be865cff51d0286",
+                    "UxmlPath": "Assets/UI/Hobbies.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 1980,
                     "CanvasHeight": 1024,
-                    "MatchGameView": false,
+                    "MatchGameView": true,
                     "ZoomScale": 0.5,
                     "PanOffset": {
-                        "x": 118.03323364257813,
-                        "y": 115.03323364257813
+                        "x": 191.6666259765625,
+                        "y": 80.33331298828125
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,
