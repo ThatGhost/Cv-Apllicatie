@@ -13,47 +13,22 @@
         "m_CodePreviewVisible": true,
         "m_OpenUXMLFiles": [
             {
-                "m_OpenUSSFiles": [
-                    {
-                        "m_StyleSheet": {
-                            "fileID": 7433441132597879392,
-                            "guid": "bcf2325cfd5e8f749b2cf07c78e7d0e5",
-                            "type": 3
-                        },
-                        "m_BackupStyleSheet": {
-                            "instanceID": 0
-                        },
-                        "m_OldPath": "Assets/UI/Text.uss"
-                    },
-                    {
-                        "m_StyleSheet": {
-                            "fileID": 7433441132597879392,
-                            "guid": "00103bec76fb7fb459593ba79d80bfa8",
-                            "type": 3
-                        },
-                        "m_BackupStyleSheet": {
-                            "instanceID": 0
-                        },
-                        "m_OldPath": "Assets/UI/Hobbies.uss"
-                    }
-                ],
+                "m_OpenUSSFiles": [],
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/Hobbies.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/Ervaring.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "d69d3cd12b2864c43be865cff51d0286",
+                    "guid": "7ba6aca0c1cd1524a9a85b1ae160191a",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
-                    "fileID": 7433441132597879392,
-                    "guid": "bcf2325cfd5e8f749b2cf07c78e7d0e5",
-                    "type": 3
+                    "instanceID": 0
                 },
                 "m_Settings": {
-                    "UxmlGuid": "d69d3cd12b2864c43be865cff51d0286",
-                    "UxmlPath": "Assets/UI/Hobbies.uxml",
+                    "UxmlGuid": "7ba6aca0c1cd1524a9a85b1ae160191a",
+                    "UxmlPath": "Assets/UI/Ervaring.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 1980,
@@ -61,8 +36,8 @@
                     "MatchGameView": true,
                     "ZoomScale": 0.5,
                     "PanOffset": {
-                        "x": 191.6666259765625,
-                        "y": 80.33331298828125
+                        "x": 179.5,
+                        "y": 126.0
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,

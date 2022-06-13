@@ -5,7 +5,7 @@
         <ui:VisualElement name="ButtonGroup" style="height: 17%; width: auto; align-items: stretch; justify-content: flex-start; flex-direction: row-reverse; background-color: rgb(255, 255, 255);">
             <ui:Button text="Home" display-tooltip-when-elided="true" name="B_Home" class="button-style Text" style="margin-right: 40px; font-size: 50px;" />
             <ui:Button text="School" display-tooltip-when-elided="true" name="B_School" class="button-style Text" style="font-size: 50px;" />
-            <ui:Button text="Ervaring" display-tooltip-when-elided="true" name="B_Ervaring" class="button-style Text" style="display: none; font-size: 50px;" />
+            <ui:Button text="Ervaring" display-tooltip-when-elided="true" name="B_Ervaring" class="button-style Text" style="font-size: 50px;" />
             <ui:Button text="Hobbies" display-tooltip-when-elided="true" name="B_Hobbies" class="button-style Text" style="font-size: 50px;" />
             <ui:Button text="Skills" display-tooltip-when-elided="true" name="B_Skills" class="button-style Text" style="font-size: 50px;" />
         </ui:VisualElement>

@@ -28,7 +28,7 @@
                     </ui:VisualElement>
                 </ui:VisualElement>
                 <ui:VisualElement name="SoftWare" style="height: 33%; padding-left: 10px; padding-top: 10%;">
-                    <ui:Label text="Ik gebruik Word, Powerpoint en Excel sinds 12 jaar. Ik ben ook een fan van schrijven dus office is me bekent. Ik heb tijdens mijn 2 jaar hoger ook met Photoshop leren werken tot een beperkte mate. En Git/Github is me zeer bekend." display-tooltip-when-elided="true" name="TalenInfo" class="Text" style="height: 100%; white-space: normal; font-size: 25px; -unity-text-align: upper-right; margin-right: 4%;" />
+                    <ui:Label text="Ik gebruik Word, Powerpoint en Excel sinds 12 jaar. Ik ben ook een fan van schrijven dus office is me bekend. Ik heb tijdens mijn 2 jaar hoger onderwijs ook met Photoshop leren werken tot een beperkte mate. En Git/Github is me zeer bekend." display-tooltip-when-elided="true" name="TalenInfo" class="Text" style="height: 100%; white-space: normal; font-size: 25px; -unity-text-align: upper-right; margin-right: 4%;" />
                 </ui:VisualElement>
                 <ui:VisualElement name="Extra" style="height: 33%;">
                     <ui:Label text="Extra" display-tooltip-when-elided="true" name="LanguagesLabel" class="Text" style="font-size: 60px; margin-top: 0; padding-top: 0;" />
@@ -77,7 +77,7 @@
                     </ui:VisualElement>
                 </ui:VisualElement>
                 <ui:VisualElement name="Extra" style="height: 33%; padding-left: 10px; padding-top: 7%;">
-                    <ui:Label text="Mijn Engels en Nederlands is ongeveer op het zelfde niveau. Ik ben met engelstalige media opgegroeid dus dat is geen probleem. " display-tooltip-when-elided="true" name="TalenInfo" class="Text" style="height: 100%; white-space: normal; font-size: 25px;" />
+                    <ui:Label text="Mijn Engels en Nederlands is ongeveer op het zelfde niveau. Ik ben met Engelstalige media opgegroeid dus dat is geen probleem. Ook mijn hoger onderwijs was volledig in het Engels gevolgd." display-tooltip-when-elided="true" name="TalenInfo" class="Text" style="height: 100%; white-space: normal; font-size: 25px;" />
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>

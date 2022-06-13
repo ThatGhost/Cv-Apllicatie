@@ -57,7 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MenuScript.cs" />
+    <Compile Include="Assets\ErvaringButtonScr.cs" />
     <Compile Include="Assets\Scripts\SchoolScript.cs" />
+    <Compile Include="Assets\ErvaringHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI\Hobbies.uss" />
@@ -84,6 +86,7 @@
     <None Include="Assets\UI\School.uxml" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\UI\MainMenu.uxml" />
+    <None Include="Assets\UI\Ervaring.uxml" />
     <None Include="Assets\UI\Text.uss" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />

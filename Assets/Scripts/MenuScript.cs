@@ -9,9 +9,7 @@ public class MenuScript : MonoBehaviour
     public GameObject Skills;
     public GameObject Ervaring;
     public GameObject School;
-
     public GameObject Hobbies;
-    public GameObject Bubbles;
 
     private Button HomeButton;
     private Button SkillsButton;
@@ -63,7 +61,6 @@ public class MenuScript : MonoBehaviour
     {
         HideAll();
         Hobbies.SetActive(true);
-        Bubbles.SetActive(true);
     }
 
     private void OnGitBUtton()
@@ -93,6 +90,5 @@ public class MenuScript : MonoBehaviour
         Ervaring.SetActive(false);
         School.SetActive(false);
         Hobbies.SetActive(false);
-        Bubbles.SetActive(false);
     }
 }
